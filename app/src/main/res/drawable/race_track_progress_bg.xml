@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Dirt/soil base -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#8B4513" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+
+    <!-- Grass track surface -->
+    <item android:top="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#228B22" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <!-- Track lines/markings -->
+    <item android:top="4dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="1dp"
+                android:color="#32CD32"
+                android:dashWidth="8dp"
+                android:dashGap="4dp" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+</layer-list>

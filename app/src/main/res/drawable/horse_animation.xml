@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/horse_thumb_frame1"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/horse_thumb_frame2"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/horse_thumb_frame3"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/horse_thumb_frame4"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/horse_thumb_frame5"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/horse_thumb_frame6"
+        android:duration="150" />
+
+</animation-list>

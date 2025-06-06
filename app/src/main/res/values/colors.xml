@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/colors.xml -->
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_red">#e94560</color>
+    <color name="primary_red_dark">#c73650</color>
+    <color name="primary_blue">#0f3460</color>
+    <color name="primary_blue_light">#16213e</color>
+
+    <!-- Background Colors -->
+    <color name="background_dark">#1a1a2e</color>
+    <color name="surface_dark">#16213e</color>
+    <color name="surface_darker">#0f1419</color>
+
+    <!-- Text Colors -->
+    <color name="text_white">#ffffff</color>
+    <color name="text_light_gray">#cccccc</color>
+    <color name="text_gray">#999999</color>
+    <color name="text_dark_gray">#666666</color>
+
+    <!-- Accent Colors -->
+    <color name="gold">#FFD700</color>
+    <color name="green">#4CAF50</color>
+    <color name="orange">#FF9800</color>
+    <color name="red_error">#F44336</color>
+
+    <!-- Racing Colors -->
+    <color name="racer_red">#FF0000</color>
+    <color name="racer_teal">#008080</color>
+    <color name="racer_green">#00FF00</color>
+
+    <!-- Podium Colors -->
+    <color name="gold_medal">#FFD700</color>
+    <color name="silver_medal">#C0C0C0</color>
+    <color name="bronze_medal">#CD7F32</color>
+
+    <!-- Button Colors -->
+    <color name="button_primary">#e94560</color>
+    <color name="button_secondary">#0f3460</color>
+    <color name="button_tertiary">#333333</color>
+    <color name="button_disabled">#555555</color>
+
+    <!-- Transparent Colors -->
+    <color name="black_overlay">#80000000</color>
+    <color name="white_overlay">#80ffffff</color>
+
+    <!-- System Colors (fallback) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

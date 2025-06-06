@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RaceTrackSeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressDrawable">@drawable/seekbar_race_track_style</item>
+        <item name="android:thumb">@drawable/horse_animation</item>
+        <item name="android:thumbOffset">0dp</item>
+        <item name="android:maxHeight">16dp</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+
+    <!-- Red horse variant -->
+    <style name="RaceTrackSeekBar.Red" parent="RaceTrackSeekBar">
+        <item name="android:progressTint">#CC0000</item>
+        <item name="android:secondaryProgressTint">#FF6666</item>
+    </style>
+
+    <!-- Teal horse variant -->
+    <style name="RaceTrackSeekBar.Teal" parent="RaceTrackSeekBar">
+        <item name="android:progressTint">#006666</item>
+        <item name="android:secondaryProgressTint">#00CCCC</item>
+    </style>
+
+    <!-- Green horse variant -->
+    <style name="RaceTrackSeekBar.Green" parent="RaceTrackSeekBar">
+        <item name="android:progressTint">#006600</item>
+        <item name="android:secondaryProgressTint">#00CC00</item>
+    </style>
+
+</resources>

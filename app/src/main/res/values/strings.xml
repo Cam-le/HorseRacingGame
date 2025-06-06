@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Horse Racing Game</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Horse Racing Betting Game</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login &amp; Race</string>
+    <string name="demo_accounts_title">Quick Login Options</string>
+
+    <!-- Main Menu -->
+    <string name="racing_central">Racing Central</string>
+    <string name="current_points">Current Points</string>
+    <string name="high_score">High Score</string>
+    <string name="current_race">Current Race</string>
+    <string name="place_bets">Place Bets</string>
+    <string name="start_race">Start Race</string>
+    <string name="new_race">New Race</string>
+    <string name="logout">Logout</string>
+
+    <!-- Betting Room -->
+    <string name="betting_room">Betting Room</string>
+    <string name="available_points">Available Points</string>
+    <string name="bet_amount_hint">Bet Amount</string>
+    <string name="potential_winnings">Potential Winnings: %1$s</string>
+    <string name="strategy_tips">Strategy Tips</string>
+    <string name="betting_summary">Betting Summary</string>
+    <string name="total_bets">Total Bets</string>
+    <string name="max_potential">Max Potential</string>
+    <string name="clear_bets">Clear</string>
+    <string name="confirm_bets">Confirm Bets</string>
+
+    <!-- Race Results -->
+    <string name="race_results">Race Results</string>
+    <string name="final_standings">Final Standings</string>
+    <string name="betting_summary_results">Your Betting Summary</string>
+    <string name="total_winnings">Total Winnings</string>
+    <string name="net_result">Net Result</string>
+    <string name="bet_breakdown">Bet Breakdown</string>
+    <string name="race_analytics">Race Analytics</string>
+    <string name="strategic_insights">Strategic Insights</string>
+    <string name="race_again">Race Again</string>
+    <string name="main_menu">Main Menu</string>
+
+    <!-- Risk Categories -->
+    <string name="low_risk">Low Risk</string>
+    <string name="moderate_risk">Moderate Risk</string>
+    <string name="high_risk">High Risk</string>
+
+    <!-- Messages -->
+    <string name="welcome_message">Welcome %1$s!</string>
+    <string name="invalid_credentials">Invalid credentials! Try demo accounts below.</string>
+    <string name="insufficient_points">Insufficient points! Available: %1$s</string>
+    <string name="bets_placed_success">Bets placed! Total: %1$s points</string>
+    <string name="place_at_least_one_bet">Please place at least one bet!</string>
+    <string name="logout_confirmation">Do you want to logout and exit the game?</string>
+    <string name="ready_to_race">Ready to Race!</string>
+    <string name="race_in_progress">Race in Progress!</string>
+    <string name="race_finished">Race Finished!</string>
+
+    <!-- Racer Names -->
+    <string name="thunder_bolt">Thunder Bolt</string>
+    <string name="speed_demon">Speed Demon</string>
+    <string name="dark_horse">Dark Horse</string>
+
+    <!-- Quick Bet Amounts -->
+    <string name="quick_bet_100">100</string>
+    <string name="quick_bet_500">500</string>
+    <string name="quick_bet_1000">1000</string>
+
+    <!-- Odds Format -->
+    <string name="odds_format">%.1fx</string>
+    <string name="points_format">%,d</string>
+    <string name="progress_format">%.1f%% Complete</string>
+
+    <!-- Demo Account Info -->
+    <string name="demo_accounts_available">Demo Accounts Available</string>
+    <string name="player1">Player1</string>
+    <string name="player2">Player2</string>
+    <string name="admin">Admin</string>
+    <string name="guest">Guest</string>
+
+    <!-- Error Messages -->
+    <string name="username_required">Username is required</string>
+    <string name="password_required">Password is required</string>
+    <string name="bet_amount_invalid">Please enter a valid bet amount</string>
+    <string name="failed_to_place_bets">Failed to place bets! Try again.</string>
+
+    <!-- Success Messages -->
+    <string name="quick_login_success">Quick login as %1$s!</string>
+    <string name="bet_placed_sound">Bet placed!</string>
+    <string name="congratulations_big_win">Congratulations! You won big!</string>
+    <string name="great_profit">Great job! You made a profit!</string>
+    <string name="break_even">Break even! Better luck next time!</string>
+    <string name="small_loss">Small loss, you\'ll get it next time!</string>
+    <string name="tough_race">Tough race! Consider a new strategy!</string>
+
+    <!-- Footer Messages -->
+    <string name="strategic_horse_racing">Strategic Horse Racing Game</string>
+    <string name="place_bets_and_watch">Place your bets and watch the race!</string>
+    <string name="ready_for_another_race">Ready for another race?</string>
+
+</resources>

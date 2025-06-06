@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.HorseRacingGame" parent="Theme.Material3.DynamicColors.DayNight">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#e94560</item>
+        <item name="colorPrimaryVariant">#c73650</item>
+        <item name="colorOnPrimary">#ffffff</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#0f3460</item>
+        <item name="colorSecondaryVariant">#16213e</item>
+        <item name="colorOnSecondary">#ffffff</item>
+
+        <!-- Background colors -->
+        <item name="android:colorBackground">#1a1a2e</item>
+        <item name="colorSurface">#16213e</item>
+        <item name="colorOnBackground">#ffffff</item>
+        <item name="colorOnSurface">#ffffff</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">#1a1a2e</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">#1a1a2e</item>
+
+        <!-- Window background -->
+        <item name="android:windowBackground">#1a1a2e</item>
+
+        <!-- Action bar -->
+        <item name="colorPrimaryDark">#1a1a2e</item>
+    </style>
+
+    <!-- Theme without action bar -->
+    <style name="Theme.HorseRacingGame.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Theme for splash screen (if needed) -->
+    <style name="Theme.HorseRacingGame.Splash">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
