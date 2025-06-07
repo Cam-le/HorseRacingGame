@@ -210,7 +210,7 @@ public class SoundManager {
 
             if (backgroundMusicPlayer != null) {
                 backgroundMusicPlayer.setLooping(true);
-                backgroundMusicPlayer.setVolume(0.3f, 0.3f); // Lower volume for background music
+                backgroundMusicPlayer.setVolume(0.4f, 0.4f); // Lower volume for background music
 
                 backgroundMusicPlayer.setOnErrorListener((mp, what, extra) -> {
                     Log.e(TAG, "Background music error: what=" + what + ", extra=" + extra);

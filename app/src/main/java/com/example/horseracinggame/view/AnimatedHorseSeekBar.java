@@ -6,6 +6,8 @@ import android.util.AttributeSet;
 import androidx.appcompat.widget.AppCompatSeekBar;
 import com.example.horseracinggame.R;
 
+import java.util.Objects;
+
 public class AnimatedHorseSeekBar extends AppCompatSeekBar {
 
     private AnimationDrawable horseAnimation;
@@ -98,12 +100,12 @@ public class AnimatedHorseSeekBar extends AppCompatSeekBar {
 
             // Add all frames with new duration
             try {
-                newAnimation.addFrame(getContext().getDrawable(R.drawable.horse_thumb_frame1), millisecondsPerFrame);
-                newAnimation.addFrame(getContext().getDrawable(R.drawable.horse_thumb_frame2), millisecondsPerFrame);
-                newAnimation.addFrame(getContext().getDrawable(R.drawable.horse_thumb_frame3), millisecondsPerFrame);
-                newAnimation.addFrame(getContext().getDrawable(R.drawable.horse_thumb_frame4), millisecondsPerFrame);
-                newAnimation.addFrame(getContext().getDrawable(R.drawable.horse_thumb_frame5), millisecondsPerFrame);
-                newAnimation.addFrame(getContext().getDrawable(R.drawable.horse_thumb_frame6), millisecondsPerFrame);
+                newAnimation.addFrame(Objects.requireNonNull(getContext().getDrawable(R.drawable.horse_thumb_frame1)), millisecondsPerFrame);
+                newAnimation.addFrame(Objects.requireNonNull(getContext().getDrawable(R.drawable.horse_thumb_frame2)), millisecondsPerFrame);
+                newAnimation.addFrame(Objects.requireNonNull(getContext().getDrawable(R.drawable.horse_thumb_frame3)), millisecondsPerFrame);
+                newAnimation.addFrame(Objects.requireNonNull(getContext().getDrawable(R.drawable.horse_thumb_frame4)), millisecondsPerFrame);
+                newAnimation.addFrame(Objects.requireNonNull(getContext().getDrawable(R.drawable.horse_thumb_frame5)), millisecondsPerFrame);
+                newAnimation.addFrame(Objects.requireNonNull(getContext().getDrawable(R.drawable.horse_thumb_frame6)), millisecondsPerFrame);
 
                 // Replace the old animation
                 horseAnimation = newAnimation;

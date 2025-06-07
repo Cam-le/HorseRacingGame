@@ -280,13 +280,13 @@ public class MainActivity extends AppCompatActivity {
 
         // Calculate winnings and update points
         int totalWinnings = gameEngine.getTotalWinnings();
-        int totalBets = gameEngine.getTotalBetAmount();
-        int netResult = totalWinnings - totalBets;
 
-        if (netResult > 0) {
-            sessionManager.addPoints(netResult);
+        // ADD TOTAL WINNINGS (not net result)
+        // Points were already deducted when bets were placed
+        // Now we add back the full winnings amount
+        if (totalWinnings > 0) {
+            sessionManager.addPoints(totalWinnings);
         }
-        // No win/lose sounds - removed as requested
 
         // Update UI
         updateUI();
